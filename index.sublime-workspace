@@ -1,1 +1,610 @@
-{}
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"back",
+				"background-size"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"bac",
+				"background-size"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"FONT",
+				"font-size"
+			],
+			[
+				"onl",
+				"onclick	Attr"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"ge",
+				"getAnswer"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"pad",
+				"padding-top"
+			],
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"r",
+				"repeat"
+			],
+			[
+				"re",
+				"repeat-x"
+			],
+			[
+				"ba",
+				"background-repeat"
+			],
+			[
+				"list-st",
+				"list-style-type"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"ideas",
+				"ideas"
+			],
+			[
+				"t",
+				"testClosure"
+			],
+			[
+				"your",
+				"yourSurname"
+			],
+			[
+				"you",
+				"yourLastName"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"dat",
+				"dat2"
+			],
+			[
+				"el",
+				"elPrice"
+			],
+			[
+				"fruit",
+				"fruitJuice"
+			],
+			[
+				"time",
+				"time"
+			],
+			[
+				"b",
+				"b"
+			],
+			[
+				"retu",
+				"return"
+			],
+			[
+				"string",
+				"strings"
+			],
+			[
+				"number",
+				"numberList"
+			],
+			[
+				"num",
+				"numberList"
+			],
+			[
+				"n",
+				"numRangers"
+			],
+			[
+				"month",
+				"monthsToPrint"
+			],
+			[
+				"o",
+				"orientSex"
+			],
+			[
+				"total",
+				"totalMW"
+			],
+			[
+				"tra",
+				"trainNumber"
+			],
+			[
+				"mon",
+				"monthsToPrint"
+			],
+			[
+				"trainT",
+				"trainTotal"
+			],
+			[
+				"train",
+				"trainNumber"
+			],
+			[
+				"tr",
+				"trainTotal"
+			],
+			[
+				"text-",
+				"text-indent"
+			],
+			[
+				"background",
+				"background"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"z",
+				"z-index"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "sni",
+		"selected_items":
+		[
+			[
+				"sni",
+				"Snippet: html"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"sn",
+				"Snippet: html"
+			],
+			[
+				"Snippet: ",
+				"SnippetManager: Create"
+			],
+			[
+				"snippet",
+				"SnippetManager: Create"
+			],
+			[
+				"html",
+				"Set Syntax: HTML (Rails)"
+			],
+			[
+				"ht",
+				"Set Syntax: HTML (Tcl)"
+			],
+			[
+				"snipper",
+				"SnippetManager: Create"
+			],
+			[
+				"snip",
+				"Snippet: html"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"snipp",
+				"Snippet: html"
+			],
+			[
+				"snippet html",
+				"Snippet: html"
+			],
+			[
+				"snippet ",
+				"Snippet: html"
+			],
+			[
+				"SNIPPET",
+				"Snippet: html"
+			],
+			[
+				"snippet h",
+				"Snippet: html"
+			],
+			[
+				"side",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 79.0,
+		"history":
+		[
+			"import urllib.request,os; pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/camco_000/Documents/GitHub/MI-Lessons/index.html",
+		"/C/Users/camco_000/Desktop/Mission-Impossible/index.html",
+		"/C/Users/camco_000/Desktop/Mission-Impossible/sass/default.scss",
+		"/C/Users/camco_000/Documents/GitHub/hello-world/README.md",
+		"/C/Users/camco_000/Desktop/all sorts of stuff and exercises/My Web Page/css/style.css",
+		"/C/Users/camco_000/Desktop/all sorts of stuff and exercises/My project/css/style.css",
+		"/C/Users/camco_000/Desktop/all sorts of stuff and exercises/My project/html/homepage.html",
+		"/C/Users/camco_000/Desktop/all sorts of stuff and exercises/My Web Page/html/homepage.html",
+		"/C/Users/camco_000/Desktop/all sorts of stuff and exercises/My Web Page/css/style2.css",
+		"/C/Users/camco_000/Desktop/all sorts of stuff and exercises/another new folder/maincss.css",
+		"/C/Users/camco_000/Desktop/all sorts of stuff and exercises/another new folder/mainhtml.html",
+		"/C/Users/camco_000/Desktop/all sorts of stuff and exercises/My Web Page/html/faq2.html",
+		"/C/Users/camco_000/Desktop/all sorts of stuff and exercises/My Web Page/html/wtf.html",
+		"/C/Users/camco_000/Desktop/all sorts of stuff and exercises/My Web Page/javascript/test.js",
+		"/C/Users/camco_000/Desktop/all sorts of stuff and exercises/My Web Page/html/faq.html",
+		"/C/Users/camco_000/Desktop/all sorts of stuff and exercises/My Web Page/BLUR FILTER CSS",
+		"/C/Users/camco_000/Desktop/all sorts of stuff and exercises/My Web Page/javascript/blur.js",
+		"/C/Users/camco_000/Desktop/all sorts of stuff and exercises/test bg/main.html",
+		"/C/Users/camco_000/Desktop/all sorts of stuff and exercises/test bg/style.css",
+		"/C/Users/camco_000/Desktop/all sorts of stuff and exercises/My Web Page/html/events.html",
+		"/C/Users/camco_000/Desktop/all sorts of stuff and exercises/My Web Page/stuff to do",
+		"/C/Users/camco_000/Desktop/all sorts of stuff and exercises/My Web Page/html/chat.html",
+		"/C/Users/camco_000/Desktop/all sorts of stuff and exercises/My Web Page/html/blogs.html",
+		"/C/Users/camco_000/Desktop/all sorts of stuff and exercises/My Web Page/css/news-style.css",
+		"/C/Users/camco_000/Desktop/all sorts of stuff and exercises/My Web Page/html/news 1 text more",
+		"/C/Users/camco_000/Desktop/all sorts of stuff and exercises/My Web Page/html/news.html",
+		"/C/Users/camco_000/Desktop/all sorts of stuff and exercises/My Web Page/css/pic_home.css",
+		"/C/Users/camco_000/Desktop/all sorts of stuff and exercises/My Web Page/css/nav_n_footer.css",
+		"/C/Users/camco_000/Desktop/all sorts of stuff and exercises/My Web Page/html/language_exch.html",
+		"/C/Users/camco_000/Desktop/all sorts of stuff and exercises/allthingsfrench/atmymainpage.html",
+		"/C/Users/camco_000/Desktop/all sorts of stuff and exercises/My Web Page/prototype new page/new_page.html",
+		"/C/Users/camco_000/Desktop/YOU CAN DO IT TOO/namesTHEGOODONE.js",
+		"/C/Users/camco_000/Desktop/YOU CAN DO IT TOO/tr1.js",
+		"/C/Users/camco_000/Desktop/all sorts of stuff and exercises/JsPart3/cows.js",
+		"/C/Users/camco_000/Desktop/all sorts of stuff and exercises/JsPart3/birds.js",
+		"/C/Users/camco_000/Desktop/all sorts of stuff and exercises/JsPart3/aaamain.html",
+		"/C/Users/camco_000/Desktop/YOU CAN DO IT TOO/main.html",
+		"/C/Users/camco_000/Desktop/YOU CAN DO IT TOO/weird.js",
+		"/C/Sites/railsgirls/app/assets/stylesheets/application.css",
+		"/C/Sites/railsgirls/app/views/layouts/application.html.erb",
+		"/C/Sites/railsgirls/config/routes.rb",
+		"/C/Sites/railsgirls/app/views/ideas/show.html.erb",
+		"/C/Sites/railsgirls/app/views/ideas/_form.html.erb",
+		"/C/Sites/railsgirls/app/models/idea.rb",
+		"/C/Sites/railsgirls/app/assets/javascripts/application.js",
+		"/C/Sites/railsgirls/app/assets/javascripts/ideas.coffee",
+		"/C/Sites/railsgirls/Gemfile",
+		"/C/Sites/railsgirls/app/views/devise/registrations/new.html.erb",
+		"/C/Sites/railsgirls/config/environments/development.rb",
+		"/C/Sites/railsgirls/app/controllers/application_controller.rb",
+		"/C/Sites/railsgirls/app/controllers/ideas_controller.rb",
+		"/C/Sites/railsgirls/db/migrate/20150516142222_add_user_id_to_ideas.rb",
+		"/C/Sites/railsgirls/app/models/user.rb",
+		"/C/Users/camco_000/Desktop/other/book.html",
+		"/C/Users/camco_000/Desktop/other/names.js",
+		"/C/Users/camco_000/Desktop/other/transport.js",
+		"/C/Users/camco_000/Desktop/other/localx.js",
+		"/C/Users/camco_000/Desktop/other/arrayCell.js",
+		"/C/Users/camco_000/Desktop/other/gennew.js",
+		"/C/Users/camco_000/Desktop/other/sheep.js",
+		"/C/Users/camco_000/Desktop/other/gen.js",
+		"/C/Users/camco_000/Desktop/other/offDuty.js",
+		"/C/Users/camco_000/Desktop/other/arrays.js",
+		"/C/Users/camco_000/Desktop/game/homepage.html",
+		"/C/Users/camco_000/Desktop/game/name.js",
+		"/C/Users/camco_000/Desktop/game/gate1.js",
+		"/C/Users/camco_000/Desktop/game/time.js",
+		"/C/Users/camco_000/Desktop/other/getname.js",
+		"/C/Users/camco_000/Desktop/other/sizes.js",
+		"/C/Users/camco_000/Desktop/other/jsbook.js",
+		"/C/Users/camco_000/Desktop/other/box.js",
+		"/C/Users/camco_000/Desktop/other/breakfast.js",
+		"/C/Users/camco_000/Desktop/other/hotel.js",
+		"/C/Users/camco_000/Desktop/other/iife.js",
+		"/C/Users/camco_000/Desktop/other/newname.js",
+		"/C/Users/camco_000/Desktop/other/main.html",
+		"/C/Users/camco_000/Desktop/other/stuff.js",
+		"/C/Users/camco_000/Desktop/other/fibonacci.html",
+		"/C/Users/camco_000/Desktop/other/fibonacci.js",
+		"/C/Users/camco_000/Desktop/holiday check list/homepage.html",
+		"/C/Users/camco_000/Desktop/holiday check list/other.js",
+		"/C/Users/camco_000/Desktop/YOU CAN DO IT/homepage.html",
+		"/C/Users/camco_000/Desktop/YOU CAN DO IT/names.js",
+		"/C/Users/camco_000/Desktop/YOU CAN DO IT/new_function.js",
+		"/C/Users/camco_000/Desktop/YOU CAN DO IT/tests.js",
+		"/C/Users/camco_000/Desktop/YOU CAN DO IT/fruits2.js",
+		"/C/Users/camco_000/Desktop/YOU CAN DO IT/time.js",
+		"/C/Users/camco_000/Desktop/YOU CAN DO IT/fun_ction.js",
+		"/C/Users/camco_000/Desktop/YOU CAN DO IT/fruit.js",
+		"/C/Users/camco_000/Desktop/YOU CAN DO IT/map.js",
+		"/C/Users/camco_000/Desktop/YOU CAN DO IT/ot.js",
+		"/C/Users/camco_000/Desktop/YOU CAN DO IT/programnew.html",
+		"/C/Users/camco_000/Desktop/YOU CAN DO IT/program.html",
+		"/C/Users/camco_000/Desktop/YOU CAN DO IT/neww.js",
+		"/C/Users/camco_000/Desktop/YOU CAN DO IT/num2.js",
+		"/C/Users/camco_000/Desktop/YOU CAN DO IT/count.js",
+		"/C/Users/camco_000/Desktop/YOU CAN DO IT/stuff.js",
+		"/C/Users/camco_000/Desktop/YOU CAN DO IT/mdp.js",
+		"/C/Users/camco_000/Desktop/YOU CAN DO IT/other.js",
+		"/C/Users/camco_000/Desktop/YOU CAN DO IT/list.js",
+		"/C/Users/camco_000/Desktop/YOU CAN DO IT/even.js",
+		"/C/Users/camco_000/Desktop/YOU CAN DO IT/i.js",
+		"/C/Users/camco_000/Desktop/YOU CAN DO IT/greetings.js",
+		"/C/Users/camco_000/Desktop/YOU CAN DO IT/random.js",
+		"/C/Users/camco_000/Desktop/YOU CAN DO IT/password.js",
+		"/C/Users/camco_000/Desktop/YOU CAN DO IT/clock2.js",
+		"/C/Users/camco_000/Desktop/YOU CAN DO IT/clock.js",
+		"/C/Users/camco_000/Desktop/Handy javascript code/clock.js",
+		"/C/Users/camco_000/Desktop/YOU CAN DO IT/age.js",
+		"/C/Users/camco_000/Desktop/YOU CAN DO IT/bluff.js",
+		"/C/Users/camco_000/Desktop/YOU CAN DO IT/generators.js",
+		"/C/Users/camco_000/Desktop/YOU CAN DO IT/print.js",
+		"/C/Users/camco_000/Desktop/YOU CAN DO IT/ranger.js",
+		"/C/Users/camco_000/Desktop/YOU CAN DO IT/sheep2.js",
+		"/C/Users/camco_000/Desktop/YOU CAN DO IT/numbereven.js",
+		"/C/Users/camco_000/Desktop/YOU CAN DO IT/program.js",
+		"/C/Users/camco_000/Desktop/YOU CAN DO IT/straight.js",
+		"/C/Users/camco_000/Desktop/test.html",
+		"/C/Users/camco_000/Desktop/papa/test.css",
+		"/C/Users/camco_000/Desktop/blurgh/css/main.css",
+		"/C/Users/camco_000/Desktop/blurgh/main.html",
+		"/C/Users/camco_000/Desktop/blurgh/script/script.js",
+		"/C/Users/camco_000/Desktop/JS/js/test.js",
+		"/C/Users/camco_000/Desktop/JS/js/add-content.js",
+		"/C/Users/camco_000/Desktop/JS/add-content.html",
+		"/C/Users/camco_000/Desktop/baffled-add-content.js",
+		"/C/Users/camco_000/Desktop/JS/css/co1.css",
+		"/C/Users/camco_000/Desktop/flat/main.css"
+	],
+	"find":
+	{
+		"height": 41.0
+	},
+	"find_in_files":
+	{
+		"height": 135.0,
+		"where_history":
+		[
+			"C:\\Users\\camco_000\\MI-Lessons"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"gitignore",
+			"		\n",
+			"404px",
+			"P",
+			"p",
+			"a",
+			"p",
+			"script",
+			"href",
+			"id",
+			"bolder",
+			">",
+			"breakf",
+			"<!DOCTYPE html>\n<html>\n<head>\n	<title></title>\n</head>\n<body>\n\nh1*3>p*5>a\n\n</body>\n</html>",
+			"cluetest"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 41.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 78.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"sni",
+				"C:\\Users\\camco_000\\Documents\\GitHub\\MI-Lessons\\index.html"
+			],
+			[
+				"style",
+				"css\\style.css"
+			],
+			[
+				"wtf",
+				"html\\wtf.html"
+			],
+			[
+				"home",
+				"html\\homepage.html"
+			],
+			[
+				"te",
+				"javascript\\test.js"
+			],
+			[
+				"sty",
+				"css\\style.css"
+			],
+			[
+				"",
+				"html\\faq.html"
+			],
+			[
+				"faq",
+				"html\\faq.html"
+			],
+			[
+				"ho",
+				"html\\homepage.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 222.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
