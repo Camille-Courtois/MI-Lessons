@@ -77,6 +77,7 @@ body {
 /* MAIN NAV  */
 .main-nav {
   float: right;
+  padding-right: 45%;
 }
 
 .main-nav ul {
