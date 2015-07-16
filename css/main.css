@@ -69,5 +69,10 @@ body {
 }
 
 .global-header__logo {
+  float: left;
   width: 100px;
+}
+
+.main.nav {
+  float: right;
 }
