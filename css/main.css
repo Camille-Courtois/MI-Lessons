@@ -62,3 +62,12 @@ body {
   background-size: cover;
   background-position: 50%;
 }
+
+.global-header {
+  padding: 20px;
+  height: 100px;
+}
+
+.global-header__logo {
+  width: 100px;
+}
