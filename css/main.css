@@ -63,6 +63,7 @@ body {
   background-position: 50%;
 }
 
+/* Global Header */
 .global-header {
   padding: 20px;
   height: 100px;
@@ -73,6 +74,19 @@ body {
   width: 100px;
 }
 
-.main.nav {
+/* MAIN NAV  */
+.main-nav {
   float: right;
+}
+
+.main-nav ul {
+  list-style-type: none;
+}
+
+.main-nav a {
+  text-decoration: none;
+}
+
+.main-nav a:hover {
+  text-decoration: underline;
 }
