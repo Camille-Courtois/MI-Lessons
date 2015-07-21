@@ -1,0 +1,40 @@
+.main-footer {		// Most of this == _main-nav style -> should we put it together?
+	height: 50px;
+	text-align: center; 
+}
+
+.main-footer__list,
+.main-footer__entry {
+	display: inline-block;
+}
+
+.main-footer__list {
+	list-style-type: none;
+}
+
+.main-footer__entry {
+	height: 50px;
+	width: 50px;
+	text-indent: -9999px;   
+	margin: 10px;
+}
+
+.main-footer a {
+	color: #474747;
+	text-decoration: none;
+}
+
+ .main-footer a:hover {
+	text-decoration: underline;
+}
+
+.main-footer__entry-modifier {
+	text-indent: 0;
+}
+.fb {
+	background-image: url(/images/facebook.jpg);
+}
+
+.twitter {
+	background-image: url(/images/twitter.jpg);
+}
