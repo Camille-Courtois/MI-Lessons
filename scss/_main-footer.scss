@@ -1,11 +1,11 @@
-.main-footer {		// Most of this == _main-nav style -> should we put it together?
+.main-footer {		// similarities with _main-nav style -> should we put it together?
 	height: 50px;
-	text-align: center; 
+	text-align: center;		// How to make it stick to the bottom without ruinning layout
 }
 
 .main-footer__list,
 .main-footer__entry {
-	display: inline-block;
+	display: inline-block;		//Why is About us floating? :/
 }
 
 .main-footer__list {
@@ -16,7 +16,7 @@
 	height: 50px;
 	width: 50px;
 	text-indent: -9999px;   
-	margin: 10px;
+	margin: 20px;
 }
 
 .main-footer a {
@@ -31,10 +31,23 @@
 .main-footer__entry-modifier {
 	text-indent: 0;
 }
+
+.main-footer__entry-modifier a {
+	color: white;
+}
+
 .fb {
 	background-image: url(/images/facebook.jpg);
 }
 
+.fb:hover {
+	background-position: 0 -50px;
+}
+
 .twitter {
 	background-image: url(/images/twitter.jpg);
+}
+
+.twitter:hover {
+	background-position: -50px 0px
 }
