@@ -1,8 +1,8 @@
 .main-footer {		// similarities with _main-nav style -> should we put it together?
-	height: 50px;
+	height: auto;
 	text-align: center;
 	position: fixed;
-	bottom: 50px;
+	bottom: 0px;
 	width: 100%;
 }
 
@@ -13,13 +13,14 @@
 
 .main-footer__list {
 	list-style-type: none;
+	float: right;
 }
 
 .main-footer__entry {
 	height: 50px;
 	width: 50px;
 	text-indent: -9999px;   
-	margin: 20px;
+	margin: 20px 10px;
 }
 
 .main-footer a {
@@ -29,14 +30,6 @@
 
  .main-footer a:hover {
 	text-decoration: underline;
-}
-
-.main-footer__entry-modifier {
-	text-indent: 0;
-}
-
-.main-footer__entry-modifier a {
-	color: white;
 }
 
 .fb {
@@ -50,6 +43,7 @@
 
 .twitter {
 	background-image: url(/images/twitter.jpg);
+	margin-right: 20px;
 }
 
 .twitter:hover {
