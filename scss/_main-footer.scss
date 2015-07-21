@@ -1,6 +1,9 @@
 .main-footer {		// similarities with _main-nav style -> should we put it together?
 	height: 50px;
-	text-align: center;		// How to make it stick to the bottom without ruinning layout
+	text-align: center;
+	position: fixed;
+	bottom: 50px;
+	width: 100%;
 }
 
 .main-footer__list,
