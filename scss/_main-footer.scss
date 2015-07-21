@@ -38,10 +38,11 @@
 
 .fb {
 	background-image: url(/images/facebook.jpg);
+	background-position: 0 -50px;
 }
 
 .fb:hover {
-	background-position: 0 -50px;
+	background-position: 0 0;
 }
 
 .twitter {
