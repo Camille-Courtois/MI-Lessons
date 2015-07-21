@@ -32,20 +32,20 @@
 	text-decoration: underline;
 }
 
-.fb {
+.main-footer__entry--fb {
 	background-image: url(/images/facebook.jpg);
 	background-position: 0 -50px;
 }
 
-.fb:hover {
+.main-footer__entry--fb:hover {
 	background-position: 0 0;
 }
 
-.twitter {
+.main-footer__entry--twitter {
 	background-image: url(/images/twitter.jpg);
 	margin-right: 20px;
 }
 
-.twitter:hover {
+.main-footer__entry--twitter:hover {
 	background-position: -50px 0px;
 }
