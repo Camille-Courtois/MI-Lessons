@@ -1,0 +1,36 @@
+.search-box {
+	background-color: rgba(255, 255, 255, 0.5);
+	width: 700px;
+	margin: auto;
+	padding: 20px;
+	border-radius: 25px;
+	// border: 0.5px solid #FFF;
+}
+
+.search-box__heading {
+	@extend .h1;
+	display: block;
+	text-align: center; 
+	margin-bottom: 50px;
+}
+
+.search-box__search-field {
+	text-align: center; 
+	width: 100%;
+	margin: auto;
+	font-size: 20px;
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+.search-box__footer {
+	text-align: right;
+	padding-top: 10px;
+}
+
+.search-box__no-luck-label {
+	
+}
+
+.search-box__post-a-question {
+}

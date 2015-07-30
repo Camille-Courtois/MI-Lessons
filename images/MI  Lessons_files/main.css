@@ -1,0 +1,196 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  background-image: url(/images/menu.jpg);
+  background-size: cover;
+  background-position: 50%;
+}
+
+.main-nav {
+  text-align: center;
+}
+
+.main-nav__list,
+.main-nav__entry {
+  display: inline-block;
+}
+
+.main-nav__list {
+  list-style-type: none;
+  float: right;
+}
+
+.main-nav__entry {
+  margin: auto 10px;
+}
+
+.main-nav a {
+  text-decoration: none;
+}
+
+.main-nav a:hover {
+  text-decoration: underline;
+}
+
+.main-footer {
+  height: auto;
+  text-align: center;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+
+.main-footer__list,
+.main-footer__entry {
+  display: inline-block;
+}
+
+.main-footer__list {
+  list-style-type: none;
+  float: right;
+}
+
+.main-footer__entry {
+  height: 50px;
+  width: 50px;
+  text-indent: -9999px;
+  margin: 20px 10px;
+}
+
+.main-footer a {
+  color: #474747;
+  text-decoration: none;
+}
+
+.main-footer a:hover {
+  text-decoration: underline;
+}
+
+.main-footer__entry--fb {
+  background-image: url(/images/facebook.jpg);
+  background-position: 0 -50px;
+}
+
+.main-footer__entry--fb:hover {
+  background-position: 0 0;
+}
+
+.main-footer__entry--twitter {
+  background-image: url(/images/twitter.jpg);
+  margin-right: 20px;
+}
+
+.main-footer__entry--twitter:hover {
+  background-position: -50px 0px;
+}
+
+.global-header {
+  padding: 20px;
+  height: 100px;
+}
+
+.global-header__logo {
+  float: left;
+  width: 100px;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.h1, .search-box__heading {
+  font-size: 40px;
+}
+
+.color {
+  color: #474747;
+}
+
+.search-box {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 700px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 25px;
+}
+
+.search-box__heading {
+  display: block;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.search-box__search-field {
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  font-size: 20px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.search-box__footer {
+  text-align: right;
+  padding-top: 10px;
+}
+
+.search-box__post-a-question {
+  color: #000;
+}
