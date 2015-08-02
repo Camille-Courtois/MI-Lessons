@@ -1,0 +1,19 @@
+.article {
+	width: 100%;
+	height: 200px;
+	background-color: #B4CDCD; 
+}
+
+.article__image {
+	float: left;
+	width: 30%;
+	height: inherit;
+	background-image: url(/images/baguette.jpeg);
+	background-position: 50%;
+	background-size: 100%;
+}
+
+ .article-text {
+	float: right;
+	width: auto;
+}
