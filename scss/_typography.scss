@@ -9,3 +9,8 @@ html {
 .color {
 	color: #474747;
 }
+
+.link {
+	@extend .color; 
+	text-decoration: none;
+}

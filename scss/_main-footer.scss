@@ -24,8 +24,7 @@
 }
 
 .main-footer a {
-	color: #474747;
-	text-decoration: none;
+	@extend .link;	
 }
 
  .main-footer a:hover {
