@@ -1,13 +1,11 @@
 extends ./jade-layouts/_default
 
 block content
-	p Questions perge
-	
 
 	//put this on a separate jade file (with possibility to modify title and p) 
 	.article
 		.article-image
 		.article-content
-			h2.article-text__title  
-				a(href='') Here is the question 
-			p.article-text__p Here is the p
+			h2.article-content__title  
+				a(href='#', onclick='textIndent();') Here is the question 
+			p.article-content__p Here is the answer 

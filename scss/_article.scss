@@ -24,23 +24,14 @@
 	text-align: center;
 }
 
-.article-text__title {
+.article-content__title {
 	font-size: 40px;
 }
 
-.article-text__title a {
+.article-content__title a {
 	@extend .link;
 }
 
-
-
-
-/* .article-text__title a:onclick { //how to make sure page doesnt reload when click on a
-	text-indent:-9999px;
-}
-*/
-
-/* .article-text__p {
+.article-content__p {
 	text-indent: -9999px;
 }
-*/
