@@ -1,0 +1,17 @@
+mixin article(title)
+	.article
+		.article-image
+		.article-content
+			.article-content__title
+				a(href='#', onclick='textIndent();')
+					h2= title
+			.article-content__p
+				if block
+					block
+				else
+					p No content yet. Write an article yourself!
+
+	//How to add a picture by article too
+
++article('Baguette')
+	p this is where to buy one

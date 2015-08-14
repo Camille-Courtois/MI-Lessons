@@ -1,11 +1,4 @@
 extends ./jade-layouts/_default
 
 block content
-
-	//put this on a separate jade file (with possibility to modify title and p) 
-	.article
-		.article-image
-		.article-content
-			h2.article-content__title  
-				a(href='#', onclick='textIndent();') Here is the question 
-			p.article-content__p Here is the answer 
+	include ./jade-partials/_article
