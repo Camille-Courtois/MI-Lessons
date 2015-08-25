@@ -1,8 +1,10 @@
-	.article
-		.article-image
-		.article-content
-			.article-content__title
-				a(href='#', onclick='textIndent();')
-					h2= title
-			.article-content__p
+ul#article-list
+script#article-template(type="text/template")
+  .article
+    .article-image(style!="background-image: url\(<%= image %>\)")
+    .article-content
+      h2.article-content__title
+        <%= title %>
+      .article-content__p
+        <%= body %>
 
